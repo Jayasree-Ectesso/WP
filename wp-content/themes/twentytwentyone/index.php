@@ -17,7 +17,7 @@
 get_header();
 
 if ( have_posts() ) {
-
+echo "hello";
 	// Load posts loop.
 	while ( have_posts() ) {
 		the_post();
